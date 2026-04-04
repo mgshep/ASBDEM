@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Name>ASBDEM</Name>
     <ProjectGuid>{01A61C44-E9D9-4EF6-889A-623C3EAD1E25}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql170DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <ModelCollation>1033, CI</ModelCollation>
   </PropertyGroup>
   <Target Name="BeforeBuild">
