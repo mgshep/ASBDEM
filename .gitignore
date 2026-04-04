@@ -4,7 +4,6 @@ Debug/
 Release/
 .vs/
 .vscode/
-_git-backups/
 *.user
 *.suo
 *.sln.docstates
