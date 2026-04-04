@@ -1,6 +1,0 @@
-CREATE SCHEMA [auto]
-    AUTHORIZATION [dbo];
-
-
-GO
-
