@@ -17,10 +17,10 @@ param(
     [string]$TargetDatabase,
 
     [Parameter(Mandatory = $false)]
-    [string]$ProjectPath = "Database\InventoryDatabase.sqlproj",
+    [string]$ProjectPath = "ASBDEM\ASBDEM.sqlproj",
     
     [Parameter(Mandatory = $false)]
-    [string]$DacpacPath = "Database\bin\Release\ASBDEM.dacpac",
+    [string]$DacpacPath = "ASBDEM\bin\Debg\ASBDEM.dacpac",
     
     [Parameter(Mandatory = $false)]
     [ValidateSet('Fresh', 'Update')]
