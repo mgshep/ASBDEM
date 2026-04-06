@@ -32,7 +32,7 @@ $scriptsFailed = 0
 # Run GetSQLServerProperties.ps1
 # ============================================================================
 Write-Host "Step 1: Running GetSQLServerProperties.ps1..." -ForegroundColor Cyan
-Write-Host "-" * 50
+Write-Host ('-' * 50)
 
 $propertiesScript = Join-Path $scriptDir "GetSQLServerProperties.ps1"
 if (Test-Path $propertiesScript) {
@@ -59,7 +59,7 @@ Write-Host ""
 # Run GetSQLServerConfig.ps1
 # ============================================================================
 Write-Host "Step 2: Running GetSQLServerConfig.ps1..." -ForegroundColor Cyan
-Write-Host "-" * 50
+Write-Host ('-' * 50)
 
 $configScript = Join-Path $scriptDir "GetSQLServerConfig.ps1"
 if (Test-Path $configScript) {
@@ -86,7 +86,7 @@ Write-Host ""
 # Run GetSQLServerDatabases.ps1
 # ============================================================================
 Write-Host "Step 3: Running GetSQLServerDatabases.ps1..." -ForegroundColor Cyan
-Write-Host "-" * 50
+Write-Host ('-' * 50)
 
 $databasesScript = Join-Path $scriptDir "GetSQLServerDatabases.ps1"
 if (Test-Path $databasesScript) {
